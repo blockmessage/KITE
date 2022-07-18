@@ -25,7 +25,7 @@ fi
 if [[ "$INSTALL_BROWSERS" = "TRUE" ]]
 then
   ./installChrome.sh
-  ./installFirefox.sh
+  #./installFirefox.sh
 else
   echo "Skipping Chrome and Firefox installation"
 fi
